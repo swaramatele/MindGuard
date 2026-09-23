@@ -1,7 +1,16 @@
+<<<<<<< HEAD
 __pycache__/
 *.pyc
 *.env
 swara.env
 venv/
 .ipynb_checkpoints/
+=======
+__pycache__/
+*.pyc
+*.env
+swara.env
+venv/
+.ipynb_checkpoints/
+>>>>>>> 5e45f3f713bbf1abf024b2556a23f7610a068a42
 .vscode/

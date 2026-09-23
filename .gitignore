@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+*.env
+swara.env
+venv/
+.ipynb_checkpoints/
+.vscode/

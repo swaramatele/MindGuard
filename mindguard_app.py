@@ -14,9 +14,11 @@ import os
 # Setup
 # ---------------------------------------------------------------------------
 
-load_dotenv(r"C:\Users\Admin\OneDrive\Desktop\IBM\swara.env")
-api_key = os.getenv("Groq_API_KEY")
-
+try:
+    api_key = st.secrets["Groq_API_KEY"]
+except Exception:
+    load_dotenv("swara.env")
+    api_key = os.getenv("Groq_API_KEY")
 MODEL = "openai/gpt-oss-20b"
 
 SYSTEM_PROMPT = (
